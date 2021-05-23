@@ -1,33 +1,64 @@
 html,
 body{
     height: 100%;
-    background-color:gray;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D3D3D3;
+}
+
+.container{
+    width: 100%;
+    background-color: #D3D3D3;
+    display: flex;
+    justify-content: center;
+}
+.dado{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    font-size: 100px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
 
 }
-.container{
-    height: 200px;
-    width: 150px;
-    background-color:gray;
+.linea{
+    width: 100%;
+    display: flex;
+}
+.punto{
+    background-color: black;
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+}
+
+.arribaderecha{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.centro{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.dados{
+.spacebetween{
     display: flex;
-    
+    justify-content: space-between;
+
 }
-.uno,
-.dos,
-.tres,
-.cuatro,
-.cinco,
-.seis{
-    background-color: white;
-    margin: 1px;
+.abajoderecha{
     display: flex;
-    flex-direction: row;
-    height: 50px;
-    width: 50px;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-end;
+    align-items: flex-end;
 }
